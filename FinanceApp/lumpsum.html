@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css"/>
+    <title>Finance Calculator</title>
+</head>
+<body>
+<div class="">
+    <nav class="navbar sticky-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Financial Calculator</a>
+    </nav>
+    <div class="clearix"></div>
+    <div class="container mt-3" style="font-family: 'Calibri Light';">
+        <h5>Lumpsum returns</h5><hr align="left" width="40%">
+
+        <form class="form-group col-md-5" action="l_result.html">
+            <div class="form-group">
+            <label for="Amount">Amount</label>
+                <input type="number" class="form-control" name="amount"/>
+            </div>
+            <div class="form-group">
+                <label for="Years Invested">Years Invested</label>
+                <input type="number" class="form-control" name="Y_invest"/>
+            </div>
+            <div class="form-group">
+                <label for="return_%">Return %</label>
+                <input type="number" class="form-control" name="return_%"/>
+            </div>
+            <button class="btn btn-unique bt0" id="btn-one">Calculate</button>
+        </form>
+
+    </div>
+    <div class="clearfix"></div>
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">&copy;2020: Financial Calculator.All rights reserved.</span>
+        </div>
+    </footer>
+</div>
+
+<script>
+$('#btn-one').click(function() {
+$('#btn-one').html('<span class="spinner-border spinner-border-sm mr-2" role="status" aria-hidden="true"></span>Loading...').addClass('disabled');
+});
+</script>
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/js/mdb.min.js"></script>
+</body>
+</html>

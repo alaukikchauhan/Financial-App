@@ -1,0 +1,77 @@
+body{
+    width: 100%;
+    font-family: "Century Gothic";
+    font-weight: lighter;
+}
+
+.maincontent{
+    background-image:url('images/bitcoin.jpg');
+    background-color: rgba(0,0,0,0.2);
+    color: antiquewhite;
+    background-size: cover;
+    padding-bottom: 15%;
+    text-align: center;
+    background-repeat: no-repeat;
+    font-family:"Calibri Light";
+}
+@media(min-width: 768px)
+{
+    .content2{
+        background-image:url('images/smartsave.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+@media(max-width: 767px)
+{
+    .contentphone{
+        background-image:url('images/smartsave1.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 45%;
+        padding-top: 10%;
+        margin-bottom: 5%;
+    }
+}
+
+.content2{
+    padding-bottom: 14%;
+    padding-top: 2%;
+}
+@media(min-width: 768px)
+{
+    .content3{
+        background-image:url('images/desire.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+@media(max-width: 767px)
+{
+    .contentphone1{
+        background-image:url('images/desire1.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 45%;
+        padding-top: 10%;
+        margin-bottom: 5%;
+    }
+}
+.content3{
+    padding-bottom: 20%;
+    padding-top: 2%;
+}
+.bt0{
+    border-radius: 0%;
+    margin-top: 5%;
+    font-family:"Calibri Light";
+}
+.footer{
+    text-align: center;
+    margin-top: 12%;
+    font-family:"Calibri Light";
+
+}
+
+
+
